@@ -1,0 +1,32 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {chapter}{Acronimi}{2}
+\contentsline {chapter}{Sommario}{3}
+\contentsline {chapter}{\numberline {1}Metodologia di Sviluppo}{4}
+\contentsline {section}{\numberline {1.1}GitHub e Documentazione}{5}
+\contentsline {section}{\numberline {1.2}Organizzazione Team e Attivit\IeC {\`a}}{6}
+\contentsline {chapter}{\numberline {2}Tecnologie}{8}
+\contentsline {section}{\numberline {2.1}Scelta del Hardware}{9}
+\contentsline {section}{\numberline {2.2}Scelta del Case}{10}
+\contentsline {section}{\numberline {2.3}Scelta del Sistema Operativo}{11}
+\contentsline {section}{\numberline {2.4}Scelta del Framework}{12}
+\contentsline {chapter}{\numberline {3}Il Volante}{13}
+\contentsline {section}{\numberline {3.1}Design della Applicazione}{13}
+\contentsline {subsection}{\numberline {3.1.1}Interfaccia 2017}{14}
+\contentsline {subsection}{\numberline {3.1.2}Finite State Machine}{15}
+\contentsline {subsection}{\numberline {3.1.3}Cross Compilazazione}{16}
+\contentsline {section}{\numberline {3.2}Redesign della Applicazione}{17}
+\contentsline {subsection}{\numberline {3.2.1}Dal Low Fidelity Prototype al primo Mockup}{17}
+\contentsline {subsection}{\numberline {3.2.2}Integrazione della nuova UI del Volante}{18}
+\contentsline {section}{\numberline {3.3}Funzionalit\IeC {\`a} delle diverse pagine}{20}
+\contentsline {subsection}{\numberline {3.3.1}Warning Tab}{20}
+\contentsline {subsection}{\numberline {3.3.2}Error Tab}{20}
+\contentsline {subsection}{\numberline {3.3.3}Status Tab}{21}
+\contentsline {subsection}{\numberline {3.3.4}Racing Page}{21}
+\contentsline {subsection}{\numberline {3.3.5}Battery Tab}{22}
+\contentsline {subsection}{\numberline {3.3.6}Sensor Tab}{22}
+\contentsline {section}{\numberline {3.4}Considerazioni sullo Sviluppo dell'Interfaccia}{23}
+\contentsline {chapter}{\numberline {4}Valutazioni}{24}
+\contentsline {section}{\numberline {4.1}Sviluppi Futuri}{25}
+\contentsline {chapter}{\numberline {5}Conclusioni}{27}
+\contentsline {chapter}{Bibliografia}{27}

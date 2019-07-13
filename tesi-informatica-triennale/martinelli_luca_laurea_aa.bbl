@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+
+\bibitem{chimera-telemetria}
+Repository del volante di chimera e chimera evoluzione.
+\newblock https://github.com/eagletrt/chimera-telemetria.
+
+\bibitem{fenice-steeringwheel}
+Repository del volante di fenice.
+\newblock https://github.com/eagletrt/fenice-steeringwheel.
+
+\bibitem{wiringPI}
+wiringpi.
+\newblock http://wiringpi.com/extensions/i2c-mcp23008-mcp23017/.
+
+\bibitem{cross-compilazione}
+Antonio~Stefani e~Luca~Martinelli.
+\newblock Cross compliazione per il volante.
+\newblock https://eagletrt.github.io/volanteCrosscompilazione.html.
+\newblock ultimo accesso 17/06/2019.
+
+\bibitem{Medium}
+Amir Mansouri.
+\newblock How to cross compile qt for raspberry pi 3 on linux (ubuntu) for
+  beginners!
+\newblock
+  https://medium.com/@amirmann/how-to-cross-compile-qt-for-raspberry-pi-3-on-linux-ubuntu-for-beginners-75acf2a078c.
+\newblock ultimo accesso 01/06/2019.
+
+\bibitem{eagletrt.github.io}
+Luca Martinelli.
+\newblock E-agle trt documentazione.
+\newblock https://www.eagletrt.github.io.
+\newblock ultimo accesso 17/06/2019.
+
+\bibitem{jumpnowtek}
+Scott.
+\newblock Build di un sistema operativo con qt per raspberry pi.
+\newblock https://jumpnowtek.com/rpi/Raspberry-Pi-Systems-with-Yocto.html.
+
+\end{thebibliography}
