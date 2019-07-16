@@ -1,49 +1,171 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <title>steeringwheel</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/theme/white.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
 
-		<script src="js/reveal.js"></script>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <div class="container">
+                    <div class="col">
+                        <h3 style="position: relative; left: 138px; top: 215px;">Sviluppo del Volante di Chimera Evoluzione</h3>
+                        <!-- <font color="#3C3744">del Volante di </font>
+                            <font color="#F6F930">Chimera </font>
+                            <font color="#090C9B">Evoluzione </font> -->
+                    </div>
+                    <div class="col">
+                        <img src="/img/imagemockup.png" style="border: 0; box-shadow: none;">
+                    </div>
+                </div>
+            </section>
+            <section data-transition="zoom">
+                <div class="container">
+                    <div class="col">
+                        <h1 style="position: relative; left: 101px; top: 45px;">Il Volante</h1>
+                    </div>
+                    <div class="col">
+                        <p>
+                            <span style="display: inline-block;" class="fragment fade-left">Infotainment</span>
+                        </p>
+                        <p>
+                            <span style="display: inline-block;" class="fragment fade-left">Debug</span>
+                        </p>
+                        <p>
+                            <span style="display: inline-block;" class="fragment fade-left">Innovazione</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section data-transition="zoom" data-background="/img/steeringwheelEsploso.png">
+                <div class="container">
+                    <div class="col">
+                        <h1 style="position: relative; left: 21px; top: -60px;">Tecnologie</h1>
+                    </div>
+                    <div class="col" style="position: relative; left: 13px; top: 389px;">
+                        <!-- <img src="/img/steeringwheelEsploso.png" style="border: 0; box-shadow: none;"> -->
+                        <p>
+                            <span style="display: inline-block;" class="fragment fade-left">Raspberry</span>
+                        </p>
+                        <p>
+                            <span style="display: inline-block;" class="fragment fade-left">Yocto</span>
+                        </p>
+                        <p>
+                            <span style="display: inline-block;" class="fragment fade-left">Qt</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section data-transition="zoom">
+                <div class="container">
+                    <div class="col">
+                        <h3>Metodologia di Sviluppo</h3>
+                    </div>
+                    <div class="col">
+                        <p>
+                            <span style="display: inline-block;" class="fragment fade-right">Agile</span>
+                        </p>
+                        <p>
+                            <span style="display: inline-block;" class="fragment fade-up">Kanban</span>
+                        </p>
+                        <p>
+                            <span style="display: inline-block;" class="fragment fade-down">User Centered Design</span>
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section data-transition="zoom">
+                <div class="container">
+                    <div class="col">
+                        <h1 style="position: relative; left: 101px; top: 45px;">Redesign UI</h1>
+                    </div>
+                    <div class="col">
+                        <p>
+                            <span style="display: inline-block;" class="fragment fade-left">UI/UX</span>
+                        </p>
+                        <p>
+                            <span style="display: inline-block;" class="fragment fade-left">Aggiornabilità</span>
+                        </p>
+                        <p>
+                            <span style="display: inline-block;" class="fragment fade-left">Usability</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section data-background="/img/lowfidelityprototype.jpg">
+                <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+                    <h2>
+                        <font color="#FFFFFF">Cosa vogliamo dal nuovo Volante:</font>
+                    </h2>
+                </div>
+            </section>
+            <section data-markdown>
+                ## Grazie per l'attenzione.
+            </section>
+            <section data-background="img/volanteFenice1.png" data-background-transition="zoom"></section>
+        </div>
+    </div>
+
+    <style>
+        .container {
+            display: flex;
+        }
+        
+        .col {
+            flex: 1;
+        }
+    </style>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // More info about config & dependencies:
+        // - https://github.com/hakimel/reveal.js#configuration
+        // - https://github.com/hakimel/reveal.js#dependencies
+        Reveal.initialize({
+            transition: 'convex',
+            center: "false",
+            width: "100%",
+            height: "100%",
+            margin: 0,
+            minScale: 1,
+            maxScale: 1,
+            dependencies: [{
+                src: 'plugin/markdown/marked.js'
+            }, {
+                src: 'plugin/markdown/markdown.js'
+            }, {
+                src: 'plugin/notes/notes.js',
+                async: true
+            }, {
+                src: 'plugin/highlight/highlight.js',
+                async: true
+            }]
+        });
+    </script>
+</body>
+
 </html>
